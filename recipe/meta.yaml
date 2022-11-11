@@ -1,4 +1,4 @@
-{% set version = '0.9.0' %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/explore_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/explore/explore_{{ version }}.tar.gz
-  sha256: 7915338d63e940e43b94e9d6f4d2c0712376e8693208746332db18f924562442
+  sha256: 0d4ff14e8dea7cd44044f7b4c0b5f61773fa8bf1dbb22a5b54e9a4999a270f46
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -71,10 +71,7 @@ test:
 about:
   home: https://github.com/rolkra/explore/
   license: GPL-3.0-only
-  summary: Interactive data exploration with one line of code or use an easy to remember set
-    of tidy functions for exploratory data analysis. Introduces three main verbs. explore()
-    to graphically explore a variable or table, describe() to describe a variable or
-    table and report() to create an automated report.
+  summary: Interactive data exploration with one line of code or use an easy to remember set of tidy functions for exploratory data analysis. Introduces three main verbs. explore() to graphically explore a variable or table, describe() to describe a variable or table and report() to create an automated report.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
