@@ -3,11 +3,13 @@ About r-explore-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-explore-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/rolkra/explore/
+Home: https://rolkra.github.io/explore/
 
-Package license: GPL-3.0-only
+Package license: MIT
 
 Summary: Interactive data exploration with one line of code or use an easy to remember set of tidy functions for exploratory data analysis. Introduces three main verbs. explore() to graphically explore a variable or table, describe() to describe a variable or table and report() to create an automated report.
+
+Development: https://github.com/rolkra/explore/
 
 Current build status
 ====================
