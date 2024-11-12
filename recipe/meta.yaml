@@ -1,4 +1,4 @@
-{% set version = "1.3.2" %}
+{% set version = "1.3.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/explore_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/explore/explore_{{ version }}.tar.gz
-  sha256: d1daba49bc34a859971ff4485394aff8a9185288dce23a1baddfbd1471da9a2e
+  sha256: ff14c1452ce83deee75983f8b35c8050b13e4837b01e1899459926b16d410fdd
 
 build:
   number: 0
